@@ -1,0 +1,190 @@
+
+/* molde para o cabeçalho*/
+html{
+    font-size: 1rem;
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.1rem solid black;
+    height: 10%;
+    width: 100%;
+    min-height: 4rem;
+    background-color: #7db4f2;
+}
+.seta{
+    width: 2rem;
+    height: 2rem;
+    margin: 0rem 1rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+.perfil{
+    border-radius: 10rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1.5rem;
+}
+/* fim do molde para o cabeçalho*/
+
+/* início para o main*/
+
+main{
+    overflow: scroll;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #cce4ff;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.passador{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0rem;
+}
+
+.seta{
+    width: 2rem;
+    height: 2rem;
+    margin: 0rem 1rem;
+}
+
+h2{
+    margin: 1rem;
+    font-size: 1.4rem;
+}
+
+
+.mais{
+    width: 2rem;
+    height: 2rem;
+}
+
+.case{
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+    border: 0.1rem solid black;
+    background-color: #d8ead9;
+    border-radius: 1rem;
+}
+
+.larg{
+    width: 94%;
+}
+
+.idd{
+    margin: 1rem;
+}
+
+.idd2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.preenche{
+    padding: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.dia{
+    font-size: 1.5rem;
+    margin: 00.3rem;
+    text-align: center;
+}
+
+.mes{
+    font-size: 0.8rem;
+    margin: 0.3rem;
+}
+
+.bor{
+    border-right: 0.1rem solid black;
+}
+
+.texto{
+    margin: 0.3rem;
+    font-size: 1.1rem;
+    text-align: center;
+    
+}
+
+.horario{
+    margin: 0.3rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.exce{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+
+
+
+
+/* molde para o rodapé*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 00.1rem solid black;
+    height: 10%;
+    width: 100%;
+    min-height: 4rem;
+    background-color: #7db4f2;
+}
+
+.imgrodape{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.rp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+/* fim do molde para o rodapé*/

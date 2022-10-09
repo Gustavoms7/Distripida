@@ -1,0 +1,148 @@
+
+/* molde para o cabeçalho*/
+html{
+    font-size: 1rem;
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.1rem solid black;
+    height: 10%;
+    width: 100%;
+    min-height: 4rem;
+    background-color: #7db4f2;
+}
+.seta{
+    width: 2rem;
+    height: 2rem;
+    margin: 0rem 1rem;
+}
+
+h1{
+    font-size: 2rem;
+}
+.perfil{
+    border-radius: 10rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 1.5rem;
+}
+/* fim do molde para o cabeçalho*/
+
+/* início para o main*/
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80%;
+    width: 100%;
+    overflow: scroll;
+    background-color: #cce4ff;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.imgperfil{
+    width: 15rem;
+    height: 15rem;
+    margin: 1rem 0rem;
+    border-radius: 10rem;
+}
+
+
+
+.txt{
+    font-family: 'Gelasio', serif;
+    margin: 0.5rem;
+}
+
+h2{
+    margin: 1rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.quadro{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #d8ead9;
+    border: 0.01rem solid black;
+    border-radius: 1rem;
+}
+
+.valor{
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 0.1rem solid #5585bb;
+    background-color: #d8ead9;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
+
+button{
+    font-size: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    border: 0.1rem solid #fb415a;
+}
+
+
+
+
+
+
+/* molde para o rodapé*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 00.1rem solid black;
+    height: 10%;
+    width: 100%;
+    min-height: 4rem;
+    background-color: #7db4f2;
+}
+
+.imgrodape{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.rp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+/* fim do molde para o rodapé*/
